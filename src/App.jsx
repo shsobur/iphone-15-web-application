@@ -1,9 +1,11 @@
-import './App.css'
+import Baner from "./layout/homePage/Baner/Baner"
+import Header from "./layout/homePage/Header/Header"
 
 const App = () => {
   return (
     <>
-      <h1>Vite + React</h1>
+      <Header></Header>
+      <Baner></Baner>
     </>
   )
 }
