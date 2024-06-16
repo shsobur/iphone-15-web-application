@@ -5,17 +5,17 @@ import {bagImg} from "../../../utils";
 const Header = () => {
   return (
     <header>
-      <nav className="px-5 py-5 md:px-10 flex items-center justify-between">
+      <nav className="screen-max-width px-5 py-5 md:px-10 flex items-center justify-between">
 
         <div className="cursor-pointer">
           <img src={appleImg} alt="Logo" height={14} width={16} />
         </div>
 
         <div>
-          <ul className="flex items-center gap-5 cursor-pointer">
-            <li>Phome</li>
-            <li>Macbook</li>
-            <li>Tablet</li>
+          <ul className="flex items-center gap-6 cursor-pointer text-sm text-gray-100">
+            <li className="hover:text-white transition-all">Phome</li>
+            <li className="hover:text-white transition-all">Macbook</li>
+            <li className="hover:text-white transition-all">Tablet</li>
           </ul>
         </div>
 
