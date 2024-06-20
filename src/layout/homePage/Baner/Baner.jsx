@@ -36,7 +36,7 @@ const Baner = () => {
         <h2 id="baner-text-one" className="hero-title">iPhone 15 Pro</h2>
 
         <div className="w-9/12 md:w-10/12 m-auto">
-          <video autoPlay loop muted playsInline={true}>
+          <video autoPlay muted playsInline={true}>
             <source src={videoSrc} type="video/mp4" />
           </video>
         </div>
@@ -45,7 +45,7 @@ const Baner = () => {
 
       <div id="iht" className="flex flex-col items-center opacity-0 translate-y-20 mt-10">
         <a href="highlight" className="btn">Buy</a>
-        <h3 className="font-normal text-xl">From $199/mounth or $999</h3>
+        <h3 className="font-normal text-xl">From $999 or $41.62/mo. for 24 mo.1</h3>
       </div>
 
     </section>
